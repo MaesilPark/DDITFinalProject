@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+   <settings>
+      <setting name="mapUnderscoreToCamelCase" value="true"/>
+   </settings>
+   
+   <typeAliases>
+<<<<<<< .mine
+   
+   	  <!-- 직원 -->
+      <typeAlias type="kr.or.ddit.common.vo.EmployeeVO" alias="employeeVO"/>
+||||||| .r359554
+=======
+>>>>>>> .r360102
+	  
+	  <!-- 환자 -->
+	  <!-- 직원 -->
+      <typeAlias type="kr.or.ddit.common.vo.EmployeeVO" alias="employeeVO"/>
+	  
+	  <!-- 환자 -->
+      <typeAlias type="kr.or.ddit.patient.vo.PatientVO" alias="patientVO"/>
+
+	  <!-- 권한 -->
+      <typeAlias type="kr.or.ddit.common.vo.AuthorityVO" alias="authorityVO"/>
+
+	  <!-- 공지사항 게시판 -->
+      <typeAlias type="kr.or.ddit.administration.vo.NoticeBoardVO" alias="noticeBoardVO"/>
+
+	  <!--  -->
+      <typeAlias type="kr.or.ddit.common.vo.PaginationInfoVO" alias="pagingVO"/>
+
+	  <!-- 파일 -->
+      <typeAlias type="kr.or.ddit.common.vo.FileVO" alias="fileVO"/>
+      
+<<<<<<< .mine
+      <!-- 진료차트 -->
+||||||| .r359554
+=======
+	  <!-- 진료차트 -->
+>>>>>>> .r360102
+      <typeAlias type="kr.or.ddit.doctor.vo.ClinicVO" alias="ClinicVO"/>
+      
+<<<<<<< .mine
+      <!-- 검사오더 -->
+||||||| .r359554
+=======
+	  <!-- 검사오더 -->
+>>>>>>> .r360102
+      <typeAlias type="kr.or.ddit.doctor.vo.MedicalExaminationOrderVO" alias="MedicalExaminationOrderVO"/>
+      
+	  <!-- 치료오더 -->
+      <typeAlias type="kr.or.ddit.doctor.vo.MedicalTreatmentRecordVO" alias="MedicalTreatmentRecordVO"/>
+      
+<<<<<<< .mine
+      <!-- 처방오더 -->
+||||||| .r359554
+=======
+	  <!-- 처방오더 -->
+>>>>>>> .r360102
+      <typeAlias type="kr.or.ddit.doctor.vo.PrescriptionOrderVO" alias="PrescriptionOrderVO"/>
+      
+<<<<<<< .mine
+      <!-- 상병 -->
+||||||| .r359554
+=======
+	  <!-- 상병 -->
+>>>>>>> .r360102
+      <typeAlias type="kr.or.ddit.doctor.vo.SickAndWoundedVO" alias="SickAndWoundedVO"/>
+      
+<<<<<<< .mine
+      <!-- 약품재고 -->
+||||||| .r359554
+=======
+	  <!-- 약품재고 -->
+>>>>>>> .r360102
+	  <typeAlias type="kr.or.ddit.nurse.vo.MedicineVO" alias="medicineVO"/>
+
+<<<<<<< .mine
+	  <!-- 간호기록차트 -->
+	  <typeAlias type="kr.or.ddit.nurse.vo.NurseRecordVO" alias="NurseRecordVO"/>
+	  
+	  <!--  -->
+	  <typeAlias type="kr.or.ddit.common.vo.SchedulerVO" alias="schedulerVO"/>
+	  
+      <!--  -->
+||||||| .r359554
+=======
+	  <!-- 간호기록차트 -->
+	  <typeAlias type="kr.or.ddit.nurse.vo.NurseRecordVO" alias="NurseRecordVO"/>
+
+	  <!--  -->
+      <typeAlias type="kr.or.ddit.common.vo.SchedulerVO" alias="schedulerVO"/>
+      
+>>>>>>> .r360102
+	  <!--  -->
+      <typeAlias type="kr.or.ddit.common.vo.ReservationVO" alias="reservationVO"/>
+
+	  <!-- 접수 -->
+      <typeAlias type="kr.or.ddit.common.vo.RceptVO" alias="rceptVO"/>
+
+	  <!--  -->
+      <typeAlias type="kr.or.ddit.calender.vo.ModuleCalenderVO" alias="moduleCalenderVO"/>
+      
+<<<<<<< .mine
+	  <!-- 제증명 -->
+      <typeAlias type="kr.or.ddit.common.vo.HospitalCertificatesVO" alias="hospitalCertificatesVO"/>
+     
+	  <!-- 검사 -->
+      <typeAlias type="kr.or.ddit.common.vo.HealthCheckupVO" alias="healthCheckupVO"/>
+
+	  <!-- 치료 -->
+      <typeAlias type="kr.or.ddit.common.vo.MedicalTreatmentVO" alias="medicalTreatmentVO"/>
+
+	  <!-- 물리/작업치료 기록지 -->
+      <typeAlias type="kr.or.ddit.therapist.vo.OtptRecordVO" alias="otptRecordVO"/>
+||||||| .r359554
+=======
+	  <!--  -->
+      <typeAlias type="kr.or.ddit.calender.vo.ModuleCalenderVO" alias="moduleCalenderVO"/>
+>>>>>>> .r360102
+      
+<<<<<<< .mine
+      <!-- 입퇴원 -->
+      <typeAlias type="kr.or.ddit.common.vo.HospitalizationVO" alias="hospitalizationVO"/>
+||||||| .r359554
+=======
+	  <!-- 제증명 -->
+      <typeAlias type="kr.or.ddit.common.vo.HospitalCertificatesVO" alias="hospitalCertificatesVO"/>
+     
+	  <!-- 검사 -->
+      <typeAlias type="kr.or.ddit.common.vo.HealthCheckupVO" alias="healthCheckupVO"/>
+
+	  <!-- 치료 -->
+      <typeAlias type="kr.or.ddit.common.vo.MedicalTreatmentVO" alias="medicalTreatmentVO"/>
+
+	  <!-- 물리/작업치료 기록지 -->
+      <typeAlias type="kr.or.ddit.therapist.vo.OtptRecordVO" alias="otptRecordVO"/>
+>>>>>>> .r360102
+      
+<<<<<<< .mine
+	  <!-- 간호근무일정표 -->
+      <typeAlias type="kr.or.ddit.manager.vo.WorkScheduleVO" alias="workScheduleVO"/>
+      
+      <!-- 간호근무일정 통계 -->
+      <typeAlias type="kr.or.ddit.manager.vo.ScheduleDataVO" alias="scheduleDataVO"/>
+      
+      
+      
+||||||| .r359554
+=======
+      <!-- 입퇴원 -->
+      <typeAlias type="kr.or.ddit.common.vo.HospitalizationVO" alias="hospitalizationVO"/>
+>>>>>>> .r360102
+      
+   </typeAliases>
+   
+</configuration>

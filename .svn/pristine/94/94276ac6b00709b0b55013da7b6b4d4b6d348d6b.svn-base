@@ -1,0 +1,21 @@
+package kr.or.ddit.calender.controller;
+
+import javax.inject.Inject;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import kr.or.ddit.common.service.ISchedulerService;
+
+@Controller
+@RequestMapping("/mediform/calender")
+public class CalenderController {
+	
+	@Inject
+	ISchedulerService schedulerserive;
+	
+	@RequestMapping("/main")
+	public String main() {
+		return "calender/calender";
+	}
+}

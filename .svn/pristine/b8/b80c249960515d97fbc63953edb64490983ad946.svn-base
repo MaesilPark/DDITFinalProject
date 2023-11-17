@@ -1,0 +1,45 @@
+package kr.or.ddit.common.vo;
+
+import lombok.Data;
+
+@Data
+public class EmployeeVO {
+
+	private String empNo;
+	private String empPw;
+	private String empRrno1;
+	private String empRrno2;
+	private String empTelno;
+	private String empZip;
+	private String empAdres1;
+	private String empAdres2;
+	private String empEmail;
+	private String empSexdstn;
+	private String empBrthdy;
+	private String empDep;
+	private String empEncpn;
+	private String empRetire;
+	private String empExp;
+	private String empRgsde;
+	private String empUpdde;
+	private String empHffcAt;
+	private String empProfile;
+	private String empSign;
+	private String empLcns;
+	private String empDoctrLcns;
+	private String empSe;
+	private String empAuthor;
+	private String empClsf;
+	private String empYrycUse;
+	private String empYrycRemndr;
+	private String empOffhodUse;
+	private String empOffhodRemndr;
+	private String empConfm;
+	private String RjctResn;
+	
+	
+	
+	
+	
+	
+}

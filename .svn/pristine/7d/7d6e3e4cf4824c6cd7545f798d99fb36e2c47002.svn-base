@@ -1,0 +1,19 @@
+package kr.or.ddit.nurse.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@Controller
+@RequestMapping(value="/mediform/nurse/xray")
+public class NurseXrayController {
+
+	@GetMapping(value="/view")
+	public String xrayView() {
+		log.info("xrayView 실행");
+		return "nurse/xray";
+	}
+}
