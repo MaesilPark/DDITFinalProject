@@ -400,7 +400,7 @@ public class ManagerEmployeeController {
 			// 병원장 바로 아래 직급 리스트 추가(각 과 과장들)
 			hospital.setChildren(leaderChild);
 
-			// 만든 List를 가지고 놀아보자 얼쑤
+			// 만든 List를 가지고 놀아보자 
 			Gson gson = new Gson();
 			
 			// json형태로 변환
